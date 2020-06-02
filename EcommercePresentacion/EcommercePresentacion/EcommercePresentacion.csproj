@@ -88,11 +88,100 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\animate.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\flexslider.css" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\Images\3.jpg" />
+    <Content Include="Content\Images\5.jpg" />
+    <Content Include="Content\Images\8.jpg" />
+    <Content Include="Content\Images\a1.png" />
+    <Content Include="Content\Images\a2.png" />
+    <Content Include="Content\Images\a3.png" />
+    <Content Include="Content\Images\a4.png" />
+    <Content Include="Content\Images\a5.png" />
+    <Content Include="Content\Images\a6.png" />
+    <Content Include="Content\Images\b1.png" />
+    <Content Include="Content\Images\b2.png" />
+    <Content Include="Content\Images\b3.png" />
+    <Content Include="Content\Images\b4.png" />
+    <Content Include="Content\Images\bg.png" />
+    <Content Include="Content\Images\bg1.jpg" />
+    <Content Include="Content\Images\bg2.jpg" />
+    <Content Include="Content\Images\e1.png" />
+    <Content Include="Content\Images\e2.png" />
+    <Content Include="Content\Images\e3.png" />
+    <Content Include="Content\Images\e4.png" />
+    <Content Include="Content\Images\f1.png" />
+    <Content Include="Content\Images\f2.png" />
+    <Content Include="Content\Images\f3.png" />
+    <Content Include="Content\Images\f4.png" />
+    <Content Include="Content\Images\f5.png" />
+    <Content Include="Content\Images\f6.png" />
+    <Content Include="Content\Images\f7.png" />
+    <Content Include="Content\Images\f8.png" />
+    <Content Include="Content\Images\f9.png" />
+    <Content Include="Content\Images\g1.png" />
+    <Content Include="Content\Images\g2.png" />
+    <Content Include="Content\Images\g3.png" />
+    <Content Include="Content\Images\g4.png" />
+    <Content Include="Content\Images\g5.png" />
+    <Content Include="Content\Images\g6.png" />
+    <Content Include="Content\Images\h1.png" />
+    <Content Include="Content\Images\h2.png" />
+    <Content Include="Content\Images\h3.png" />
+    <Content Include="Content\Images\h4.png" />
+    <Content Include="Content\Images\h5.png" />
+    <Content Include="Content\Images\img1.jpg" />
+    <Content Include="Content\Images\img2.jpg" />
+    <Content Include="Content\Images\img3.jpg" />
+    <Content Include="Content\Images\m1.png" />
+    <Content Include="Content\Images\m2.png" />
+    <Content Include="Content\Images\m3.png" />
+    <Content Include="Content\Images\m4.png" />
+    <Content Include="Content\Images\move-up.png" />
+    <Content Include="Content\Images\p1.png" />
+    <Content Include="Content\Images\p2.png" />
+    <Content Include="Content\Images\p3.png" />
+    <Content Include="Content\Images\p4.png" />
+    <Content Include="Content\Images\s1.jpg" />
+    <Content Include="Content\Images\s1.png" />
+    <Content Include="Content\Images\s2.jpg" />
+    <Content Include="Content\Images\s2.png" />
+    <Content Include="Content\Images\s3.jpg" />
+    <Content Include="Content\Images\s3.png" />
+    <Content Include="Content\Images\s4.png" />
+    <Content Include="Content\Images\s5.png" />
+    <Content Include="Content\Images\tick.png" />
+    <Content Include="Content\ken-burns.css" />
+    <Content Include="Content\menu.css" />
+    <Content Include="Content\owl.carousel.css" />
+    <Content Include="Content\style.css" />
+    <Content Include="Fonts\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\custom.js" />
+    <Content Include="Scripts\easing.js" />
+    <Content Include="Scripts\imagezoom.js" />
+    <Content Include="Scripts\jquery-2.2.3.min.js" />
+    <Content Include="Scripts\jquery-scrolltofixed-min.js" />
+    <Content Include="Scripts\jquery.classycountdown.js" />
+    <Content Include="Scripts\jquery.flexslider.js" />
+    <Content Include="Scripts\jquery.jscrollpane.min.js" />
+    <Content Include="Scripts\jquery.knob.js" />
+    <Content Include="Scripts\jquery.marquee.min.js" />
+    <Content Include="Scripts\jquery.menu-aim.js" />
+    <Content Include="Scripts\jquery.mousewheel.js" />
+    <Content Include="Scripts\jquery.throttle.js" />
+    <Content Include="Scripts\main.js" />
+    <Content Include="Scripts\minicart.js" />
+    <Content Include="Scripts\move-top.js" />
+    <Content Include="Scripts\owl.carousel.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -100,7 +189,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
+    <Content Include="Fonts\fontawesome-webfont.eot" />
+    <Content Include="Fonts\fontawesome-webfont.ttf" />
+    <Content Include="Fonts\fontawesome-webfont.woff" />
+    <Content Include="Fonts\fontawesome-webfont.woff2" />
+    <Content Include="Fonts\FontAwesome.otf" />
+    <Content Include="Fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Fonts\glyphicons-halflings-regular.woff2" />
     <None Include="packages.config" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -110,7 +209,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Ecommerce.Dominio\Ecommerce.Dominio.csproj">
