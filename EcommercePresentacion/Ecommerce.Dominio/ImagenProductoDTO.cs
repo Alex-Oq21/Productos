@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Ecommerce.Dominio
 {
-    class ImagenProductoDTO
+    public class ImagenProductoDTO
     {
         public int IdImagenProducto { get; set; }
         public int IdProducto { get; set; }
         public string Url { get; set; }
         public bool EsPortada { get; set; }
-
         
     }
+
 }

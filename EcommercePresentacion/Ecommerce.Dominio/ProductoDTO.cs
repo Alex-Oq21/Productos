@@ -14,5 +14,6 @@ namespace Ecommerce.Dominio
         public short Stock { get; set; }
         public string Descripcion { get; set; }
         public string Referecnia { get; set; }
+        public IEnumerable<ImagenProductoDTO> Imagenes { get; set; }
     }
 }
